@@ -1,0 +1,84 @@
+header{
+    background-color: white;
+    padding: 11px 0px;
+    border-bottom: 2px solid #007ACC;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+#brand{
+    width: 61px;
+    height: 55px;
+    text-align: center;
+    background-color: #1298F6;
+    border-radius: 30%;
+    text-decoration: none;
+    color: #dbf0ff;
+    margin-right: 1rem;
+    display: block;
+}
+
+#brand i{
+    font-size: 35px;
+    padding: 10px 0px;
+}
+
+div#brandWrapper h1{
+    margin: 0;
+}
+
+div#centerNavIconWrapper a{
+    width: 103px;
+    text-align: center;
+    border-radius: 5px;
+    color: rgb(36, 36, 36);
+    transition: all 0.3s;
+}
+
+div#centerNavIconWrapper a:hover{
+    color: #007ACC;
+    background-color: #c0e3ff;
+}
+
+div#centerNavIconWrapper a i{
+    padding: 9px 0px;
+    font-size: 31px;
+}
+
+div#rightNavIconWrapper ul.menuWrapper{
+    padding: 0;
+    margin: 0;
+    display: block;
+    transition: all 0.3s;
+}
+div#rightNavIconWrapper ul.menuWrapper{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    transition: all 0.3s;
+}
+
+div#rightNavIconWrapper ul.menuWrapper li{
+    display: inline-block;
+}
+
+div#rightNavIconWrapper ul.menuWrapper li a{
+    padding: 13px 25px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: all 0.3s;
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+}
+
+div#rightNavIconWrapper ul.menuWrapper li a:hover{
+    color: #007ACC;
+    background-color: #c0e3ff;
+}
+
+div#rightNavIconWrapper a i{
+    font-size: 23px;
+    padding: 9px 0px;
+}

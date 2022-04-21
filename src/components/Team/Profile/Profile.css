@@ -1,0 +1,194 @@
+section.profileSecWrapper{
+    padding: 65px 0px;
+}
+
+div.card.profileWrapper{
+    border: none;
+}
+
+div.card.profileWrapper .card-body img{
+    width: 100%;
+    height: 323px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+div.card.profileWrapper .card-body p.profileDetailText{
+    font-weight: 500;
+    color: rgb(44, 44, 44);
+    padding: 10px;
+    padding-left: 0;
+}
+
+div.card.profileWrapper .card-body h2{
+    font-weight: bold;
+    margin-bottom: 1.2rem;
+    color: rgb(78, 78, 78);
+}
+
+div.card.profileWrapper .card-body h2 span.badgeWrapper{
+    margin-left: 3px;
+}
+
+div.card.profileWrapper .card-body h2 span.badgeWrapper i{
+    color: #007ACC;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+div.card.profileWrapper .card-body h6{
+    margin-bottom: 2rem;
+}
+
+div.card.profileWrapper .card-body h6 span{
+    padding: 5px 15px;
+    background-color: #007ACC;
+    border-radius: 20px;
+    color: white;
+}
+
+div.card.profileWrapper .card-body p{
+    font-weight: bold;
+    color: gray;
+}
+
+div.card.profileWrapper .card-body h4{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 2rem;
+}
+
+div.card.profileWrapper .card-body h4 ul.starWrapper{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    margin-left: 10px;
+}
+
+div.card.profileWrapper .card-body h4 ul.starWrapper li{
+    display: inline-block;
+    margin-right: 7px;
+}
+
+div.btnWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 2.5rem;
+}
+
+div.btnWrapper a{
+    padding: 0px 20px;
+    height: 40px;
+    color: #3f97d1;
+    background-color: #C0E3FF;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    font-weight: bold;
+    transition: all 0.3s;
+    margin-right: 15px;
+}
+
+div.btnWrapper a:hover{
+    background-color: #0174c0;
+    color: #fff;
+}
+
+div.btnWrapper a i{
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+div.aboutBtnWrapper{
+    border-bottom: 2px solid #dddddd;
+    margin-bottom: 1.5rem;
+}
+
+div.aboutBtnWrapper a{
+    padding: 0px 15px;
+    height: 40px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-right: 15px;
+    color: rgb(78, 78, 78);
+    position: relative;
+    transition: all 0.3s !important;
+}
+
+
+div.aboutBtnWrapper a:hover::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #007ACC;
+}
+div.aboutBtnWrapper a.active::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #007ACC;
+}
+
+div.aboutBtnWrapper a i{
+    font-size: 25px;
+    margin-right: 15px;
+}
+
+div.detailWrapper .row{
+    margin-bottom: .5rem;
+}
+
+div.detailWrapper .row div{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+div.detailWrapper .row div a{
+    padding-left: 20px;
+}
+
+div.detailWrapper p{
+    color: rgb(78, 78, 78) !important;
+    margin-bottom: 0;
+}
+
+div.detailWrapper a{
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.2s;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: left;
+}
+
+div.detailWrapper a.socialBtn{
+    height: 40px;
+    text-decoration: none;
+    color: #007ACC;
+}
+div.detailWrapper a.socialBtn i{
+    font-size: 35px;
+}
+
+div.detailWrapper a:hover{
+    color: orangered;
+}
+
+div.card.profileWrapper h5{
+    margin-bottom: 1.7rem;
+}

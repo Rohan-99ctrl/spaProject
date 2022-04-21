@@ -1,0 +1,96 @@
+section.teamSecWrapper{
+    padding: 65px 0px;
+}
+
+section.teamSecWrapper .container h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    margin-bottom: 2.5rem;
+}
+
+div.card.teamWrapper{
+    border: none;
+    border-top: 9px solid #007ACC;
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+/* .secondSec */
+
+/* div.card.secondSec{
+    border-top: 9px solid #FF8565;
+} */
+
+/* .thirdSec */
+
+/* div.card.thirdSec{
+    border-top: 9px solid #5EDDCE;
+} */
+
+div.card.teamWrapper .card-body{
+    padding: 30px 20px;
+    text-align: center;
+}
+
+div.card.teamWrapper .card-body img{
+    width: 130px;
+    height: 130px;
+    border-radius: 20px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+div.card.teamWrapper .card-body h5{
+    font-weight: bold;
+    color: #007ACC;
+}
+
+div.card.teamWrapper .card-body p.teamDeatilText{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div.card.teamWrapper .card-body button{
+    border:none;
+}
+
+div.card.teamWrapper .card-body button.post{
+    background-color: #007ACC;
+    margin-right: .7rem;
+}
+
+div.card.teamWrapper .card-body .viewProfile{
+    background-color: #333d2c !important;
+}
+
+div.socialWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #007ACC;
+}
+
+div.socialWrapper a {
+    padding: 0px 23px;
+    border: 10px;
+    text-decoration: none;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s;
+}
+
+div.socialWrapper a:hover{
+    background-color: #53b9fd;
+}
+
+div.socialWrapper a i{
+    font-size: 25px;
+    color: white;
+}
